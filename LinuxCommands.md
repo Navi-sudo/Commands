@@ -31,3 +31,13 @@
 - __rmdir__ (Remover uma pasta)
 - __man "comando"__ (Manual de comandos do comando desejado)
 - __Tecla "Tab"__ (Completa o comando que está escrevendo)
+
+### <dt>Comandos básicos de Rede</dt>
+- __ifconfig__ (Visualizar interfaces de Redes)
+- __netstat__ (Visualizar conexões ativas (Tabela de Roteamento))
+- __ping__ (Testar comunicação em rede (Host)
+- __traceroute__ (Traçar um caminho até o alvo)
+
+  <dd>Serviços</dd>
+  - __service "nome" [ start | status | stop | restart]
+
