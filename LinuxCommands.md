@@ -16,7 +16,7 @@
    
     __ls -l__ (Listar em linhas)
    
-    __ls -a___ (Lista também arquivos ocultos)
+    __ls -a__ (Lista também arquivos ocultos)
    
     __ls -la__ (Lista em linha e também ocultos)
    
