@@ -35,9 +35,13 @@
 ### <dt>Comandos básicos de Rede</dt>
 - __ifconfig__ (Visualizar interfaces de Redes)
 - __netstat__ (Visualizar conexões ativas (Tabela de Roteamento))
-- __ping__ (Testar comunicação em rede (Host)
+      __netstat -nat__ (Porta Local que está sendo utilizada e endereço de destino solicitado)
+      __netstat -natp__ (Mostra o programa que está sendo utilizado)
+      __netstat -r__ (Mostra a tabela de roteamento)
+- __ping__ (Testar comunicação em rede (Host))
 - __traceroute__ (Traçar um caminho até o alvo)
 
-  <dd>Serviços</dd>
-  - __service "nome" [ start | status | stop | restart]
+### <dt>Serviços</dt>
+  - __service "nome"__ [ start | status | stop | restart]
+  - __service "espaço e TAB"__ (Mostra todos os serviços disponiveis instalados no sistema)
 
