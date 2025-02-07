@@ -32,7 +32,7 @@
 &nbsp;
   >> __TCP XMAS:__ Envia um pacote TCP com todas as flags ativadas e espera a resposta da porta para classifica-la como Aberta, Filtrada, Fechada, etc **SCAN ANTIGO, DIFICILMENTE FUNCIONARIA NOS DIAS DE HOJE**
 
-#### UDP
+<!--#### UDP
 - Envia um pacote UDP
 - (Não há flags no UDP)
 
@@ -58,3 +58,4 @@
 
 &nbsp;  
   >> **PROBLEMA DO UDP: MUITO MAIS LENTO (CASO PORTA ESTIVER FILTRADA OU PACOTE PERDIDO O NMAP FICA UM BOM TEMPO ESPERANDO)**
+  --> 
