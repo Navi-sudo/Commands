@@ -35,8 +35,26 @@
 #### UDP
 - Envia um pacote UDP
 - (Não há flags no UDP)
-      - Se a porta estiver aberta, uma resposta será enviada então o NMAP classificará como aberta
+
+
+
+&nbsp;
+    - Se a porta estiver aberta, uma resposta será enviada então o NMAP classificará como aberta
+
+
+
+&nbsp;      
       - Se a porta estiver fechada, um pacote do tipo ICMP PORT UNREACHABLE é enviado
+
+
+
+
+&nbsp;
       - Se a porta estiver filtrada nenhuma resposta será enviada
+
+
+
+
+&nbsp;  
   - **PROBLEMA DO UDP: MUITO MAIS LENTO (CASO PORTA ESTIVER FILTRADA OU PACOTE PERDIDO O NMAP FICA UM BOM TEMPO ESPERANDO)**
 - Envia pacote UDP, se a porta estiver aberta o NMAP classfica como aberta
