@@ -43,6 +43,7 @@
 
 
 
+
 &nbsp;      
       - Se a porta estiver fechada, um pacote do tipo ICMP PORT UNREACHABLE é enviado
 
