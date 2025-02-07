@@ -12,6 +12,7 @@
 
 &nbsp;
   >> __TCP CONNECT:__ Estabelece uma conexão completa com o alvo (3-Way Handshake completo) **PROBLEMA: ELE TE DEIXA REGISTRADO NO ALVO, CASO HOUVER REGISTRO DE LOG VAI APARECER SEU IP**
+>  > 
 
 
 
@@ -30,3 +31,12 @@
 
 &nbsp;
   >> __TCP XMAS:__ Envia um pacote TCP com todas as flags ativadas e espera a resposta da porta para classifica-la como Aberta, Filtrada, Fechada, etc **SCAN ANTIGO, DIFICILMENTE FUNCIONARIA NOS DIAS DE HOJE**
+
+#### UDP
+- Envia um pacote UDP
+- (Não há flags no UDP)
+      - Se a porta estiver aberta, uma resposta será enviada então o NMAP classificará como aberta
+      - Se a porta estiver fechada, um pacote do tipo ICMP PORT UNREACHABLE é enviado
+      - Se a porta estiver filtrada nenhuma resposta será enviada
+  - **PROBLEMA DO UDP: MUITO MAIS LENTO (CASO PORTA ESTIVER FILTRADA OU PACOTE PERDIDO O NMAP FICA UM BOM TEMPO ESPERANDO)**
+- Envia pacote UDP, se a porta estiver aberta o NMAP classfica como aberta
